@@ -135,7 +135,7 @@ body {
 
                         border: none;
                         transition: all .2s linear;
-                        cursor: url('/img/HandCursor.png'), auto;
+                        cursor: url('./img/HandCursor.png'), auto;
 
                         &:hover {
                             color: #0C0D0F;
