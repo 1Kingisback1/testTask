@@ -1,0 +1,191 @@
+@media (max-width: 390px) {
+  body {
+    max-width: 380px;
+    width: 100%;
+  }
+  body .main .wrapper {
+    height: 100%;
+  }
+  body .main .wrapper .newsBlock {
+    max-width: 380px;
+    width: 100%;
+    height: 100%;
+    padding: 16px 0;
+    border-radius: 0;
+  }
+  body .main .wrapper .newsBlock .newsBlock-header .team {
+    display: none;
+  }
+  body .main .wrapper .newsBlock .newsBlock-content .text-content {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  body .main .wrapper .newsBlock .newsBlock-content .text-content h2 {
+    width: 95%;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 24px;
+  }
+  body .main .wrapper .newsBlock .newsBlock-content .text-content p {
+    width: 100%;
+    font-size: 18px;
+    color: #0C0D0F;
+    text-align: justify;
+  }
+  body .main .wrapper .newsBlock .newsBlock-content .content-img {
+    margin-top: 16px;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+  }
+  body .main .wrapper .newsBlock .newsBlock-content .content-img > img {
+    position: absolute;
+    width: 640px;
+    height: 100%;
+    left: -35%;
+    top: 0;
+    z-index: 1;
+  }
+}
+body {
+  max-width: 1920px;
+  width: 100%;
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+*,
+*::after,
+*::before {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+* a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  cursor: url("/img/HandCursor.png"), auto;
+}
+
+.main .wrapper {
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main .wrapper .newsBlock {
+  max-width: 640px;
+  width: 100%;
+  background-color: #fff;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 16px;
+  transition: box-shadow 0.2s linear;
+}
+.main .wrapper .newsBlock:hover {
+  box-shadow: 0px 5px 25px 0px rgba(112, 144, 176, 0.1215686275), 0px 0px 3px 0px rgba(112, 144, 176, 0.0705882353);
+}
+.main .wrapper .newsBlock .newsBlock-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+.main .wrapper .newsBlock .newsBlock-header .header__link {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.main .wrapper .newsBlock .newsBlock-header .header__link .pro {
+  font-size: 16px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.main .wrapper .newsBlock .newsBlock-header .header__link .pro:hover {
+  color: #5E6978;
+}
+.main .wrapper .newsBlock .newsBlock-header .header__link .pro::before {
+  content: url("/img/icon/iconEye.svg");
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+.main .wrapper .newsBlock .newsBlock-header .header__link .team {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.main .wrapper .newsBlock .newsBlock-header .header__link .team:hover {
+  color: #5E6978;
+}
+.main .wrapper .newsBlock .newsBlock-content .text-content {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.main .wrapper .newsBlock .newsBlock-content .text-content h2 {
+  width: 95%;
+  font-weight: 700;
+  line-height: 32px;
+  font-size: 24px;
+}
+.main .wrapper .newsBlock .newsBlock-content .text-content p {
+  width: 94%;
+  font-size: 18px;
+  color: #0C0D0F;
+}
+.main .wrapper .newsBlock .newsBlock-content .content-img {
+  margin-top: 16px;
+}
+.main .wrapper .newsBlock .newsBlock-content .content-img > img {
+  width: 640px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .wrapper .newsBlock .newsBlock-footer {
+  padding: 0 16px;
+}
+.main .wrapper .newsBlock .newsBlock-footer .footer__inner {
+  display: flex;
+  gap: 16px;
+}
+.main .wrapper .newsBlock .newsBlock-footer .footer__inner button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+  background-color: inherit;
+  font-family: initial;
+  font-size: 16px;
+  color: #5E6978;
+  border: none;
+  transition: all 0.2s linear;
+  cursor: url("/img/HandCursor.png"), auto;
+}
+.main .wrapper .newsBlock .newsBlock-footer .footer__inner button:hover {
+  color: #0C0D0F;
+}
+.main .wrapper .newsBlock .newsBlock-footer .footer__inner .like-counter:hover svg path {
+  fill: #0C0D0F;
+}
+.main .wrapper .newsBlock .newsBlock-footer .footer__inner .bookmark:hover svg path {
+  fill: #0C0D0F;
+}
+.main .wrapper .newsBlock .newsBlock-footer .footer__inner .comment:hover svg path {
+  fill: #0C0D0F;
+}/*# sourceMappingURL=style.css.map */
