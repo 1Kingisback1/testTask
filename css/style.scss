@@ -70,13 +70,8 @@ body {
                         &:hover { 
                             color: $hoverColor;
                         }
-                        &::before {
-                            content: url('./img/icon/iconEye.svg');
-
-                            display: inline-block;
-                            width: 24px;
-                            height: 24px;
-
+                        &:hover svg path {
+                            fill: $hoverColor;
                         }
                     }
                     & .team {

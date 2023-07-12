@@ -118,11 +118,8 @@ body {
 .main .wrapper .newsBlock .newsBlock-header .header__link .pro:hover {
   color: #5E6978;
 }
-.main .wrapper .newsBlock .newsBlock-header .header__link .pro::before {
-  content: url("./img/icon/iconEye.svg");
-  display: inline-block;
-  width: 24px;
-  height: 24px;
+.main .wrapper .newsBlock .newsBlock-header .header__link .pro:hover svg path {
+  fill: #5E6978;
 }
 .main .wrapper .newsBlock .newsBlock-header .header__link .team {
   text-transform: capitalize;
