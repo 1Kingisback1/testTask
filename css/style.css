@@ -172,7 +172,7 @@ body {
   color: #5E6978;
   border: none;
   transition: all 0.2s linear;
-  cursor: url("./img/HandCursor.png"), auto;
+  cursor: url("../img/HandCursor.png"), auto;
 }
 .main .wrapper .newsBlock .newsBlock-footer .footer__inner button:hover {
   color: #0C0D0F;
